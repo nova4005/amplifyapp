@@ -7,6 +7,7 @@ import '@aws-amplify/ui-react/styles.css';
 function App({ signOut, user }) {
   return (
     <div className="App">
+
       <header>
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello {user.username}</h1>
